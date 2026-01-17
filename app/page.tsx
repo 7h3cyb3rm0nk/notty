@@ -30,7 +30,7 @@ export default function Page() {
 
   const selectNote = (note: Note) => {
     setActiveNote(note)
-    setEditing(false)
+    setIsEditing(false)
   }
   const renderNoteContent = () => {
     if (activeNote && isEditing) {
